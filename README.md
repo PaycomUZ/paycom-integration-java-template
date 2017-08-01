@@ -9,7 +9,7 @@
 ````
 ## Get the template:
 ````
-git clone git@gitlab.com:Bengi/MerchantApi.git
+git clone git@github.com:PaycomUZ/paycom-integration-java-template.git
 ````
 ## Go to the template root folder
 Edit your properties `\src\main\resources\application.yaml` <br>
