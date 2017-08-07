@@ -141,7 +141,7 @@ import java.util.*
    * http://paycom.uz/api/#merchant-api-metody-changepassword-izmenenie-parolya-dostupa-paycom-k-billingu-merchanta
    */
   override fun ChangePassword(password: String): ChangePasswordResult {
-    //Here you need to save password for your staffs
+    //Here you need to change auth password for further usage by Paycom
     return ChangePasswordResult(true)
   }
 }

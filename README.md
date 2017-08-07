@@ -13,6 +13,7 @@ git clone git@github.com:PaycomUZ/paycom-integration-java-template.git
 ````
 ## Go to the template root folder
 Edit your properties `\src\main\resources\application.yaml` <br>
+Please edit password in field: `password`
 ````
 security:
   user:
@@ -29,6 +30,10 @@ curl -H "Content-Type:application/json" -d '{"id":"1", "jsonrpc":"2.0", "method"
 ````
 Paycom test tool - [Merchant Test](http://test.paycom.uz/) <br>
 You can also run tests from `MerchantApplicationTests.kt`
+
+## Note
+In this sample we are used in-memory H2 database for example. In real production app you must use
+permanent storage
 
 ## Docs
 http://paycom.uz/api/
